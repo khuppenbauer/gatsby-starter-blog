@@ -40,12 +40,12 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -p 3000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
+    "start": "gatsby develop -p 3000",
+    "serve": "gatsby serve -p 3000",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gatsby serve",
+    "deploy": "gatsby build && gatsby serve -p 3000",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
